@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractType.cs" />
+    <Compile Include="AbstractTypeWithNonDefaultConstructor.cs" />
     <Compile Include="CollectionHolder.cs" />
     <Compile Include="ConcreteType.cs" />
     <Compile Include="DataErrorInfo.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="DoublePropertyHolder.cs" />
     <Compile Include="EqualityResponder.cs" />
     <Compile Include="FieldHolder.cs" />
+    <Compile Include="IInterface.cs" />
     <Compile Include="IllBehavedPropertyHolder.cs" />
     <Compile Include="IndexedPropertyHolder.cs" />
     <Compile Include="InvariantReferenceTypePropertyHolder.cs" />
