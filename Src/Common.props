@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <Product>AutoFixture</Product>
+    <Product>SemanticComparison</Product>
     <Company>AutoFixture</Company>
     <Copyright>Copyright © AutoFixture 2011</Copyright>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -17,21 +17,19 @@
 
     <!-- NuGet options -->
     <Authors>Mark Seemann,AutoFixture</Authors>
-    <PackageProjectUrl>https://github.com/AutoFixture/AutoFixture</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/AutoFixture/AutoFixture/blob/master/LICENCE.txt</PackageLicenseUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/AutoFixture/AutoFixture/master/AutoFixtureLogo200x200.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/AutoFixture/SemanticComparison</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/AutoFixture/SemanticComparison/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/AutoFixture/SemanticComparison/master/AutoFixtureLogo.png</PackageIconUrl>
   </PropertyGroup>
 
   <Choose>
     <When Condition="$(TargetFramework.StartsWith('netstandard')) Or $(TargetFramework.StartsWith('netcoreapp'))">
-      <PropertyGroup>
-        <DefineConstants>$(DefineConstants);SYSTEM_GLOBALIZATION_CULTUREINFO_CULTURESETTERS</DefineConstants>
-      </PropertyGroup>
+      <PropertyGroup />
     </When>
     <Otherwise>
       <PropertyGroup>
         <_IsFullFramework>true</_IsFullFramework>
-        <DefineConstants>$(DefineConstants);SYSTEM_NET_MAIL;SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_THREADING_THREAD_CULTURESETTERS;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_TYPE_FULL;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE</DefineConstants>
+        <DefineConstants>$(DefineConstants);SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE</DefineConstants>
       </PropertyGroup>
     </Otherwise>
   </Choose>
