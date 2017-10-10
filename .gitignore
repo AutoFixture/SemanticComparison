@@ -1,0 +1,40 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Hh]elp/
+
+# User-specific files
+*.suo
+*.user
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# FAKE - F# Make
+.fake/
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# package files can be ignored because of the NuGet restore
+**/packages/*
+
+# Tmp modified files
+*.orig
+
+# Temp build artifacts and tools
+/build/

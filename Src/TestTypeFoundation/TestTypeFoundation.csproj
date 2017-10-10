@@ -7,7 +7,6 @@
     <AssemblyTitle>TestTypeFoundation</AssemblyTitle>
     <AssemblyName>Ploeh.TestTypeFoundation</AssemblyName>
     <RootNamespace>Ploeh.TestTypeFoundation</RootNamespace>
-    <IsPackable>false</IsPackable>
   </PropertyGroup>
  
 </Project>
