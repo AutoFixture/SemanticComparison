@@ -89,7 +89,7 @@ namespace Ploeh.SemanticComparison
         /// A hash code for this instance, suitable for use in hashing algorithms and data structures 
         /// like a hash table. 
         /// </returns>
-        /// <exception cref="T:System.ArgumentNullException">
+        /// <exception cref="ArgumentNullException">
         /// The type of <paramref name="obj"/> is a reference type and <paramref name="obj"/> is null.
         ///   </exception>
         public int GetHashCode(object obj)
@@ -121,7 +121,7 @@ namespace Ploeh.SemanticComparison
         /// A hash code for this instance, suitable for use in hashing algorithms and data structures 
         /// like a hash table. 
         /// </returns>
-        /// <exception cref="T:System.ArgumentNullException">
+        /// <exception cref="ArgumentNullException">
         /// The type of <paramref name="obj"/> is a reference type and <paramref name="obj"/> is null.
         ///   </exception>
         int IEqualityComparer.GetHashCode(object obj)
@@ -143,8 +143,10 @@ namespace Ploeh.SemanticComparison
             internal static IEnumerable<MemberInfo> Generate<T>()
             {
                 return typeof(T)
+                    .GetTypeInfo()
                     .GetProperties(BindingFlags.Public | BindingFlags.Instance)
                     .Concat(typeof(T)
+                        .GetTypeInfo()
                         .GetFields(BindingFlags.Public | BindingFlags.Instance)
                         .Cast<MemberInfo>());
             }
@@ -238,6 +240,7 @@ namespace Ploeh.SemanticComparison
 
             var bindingAttributes = BindingFlags.Public | BindingFlags.Instance;
             return typeof(T)
+                .GetTypeInfo()
                 .GetProperties(bindingAttributes)
                 .Select(property => this.Comparers
                     .Where(c => c.IsSatisfiedBy(property))
@@ -245,6 +248,7 @@ namespace Ploeh.SemanticComparison
                         property.GetValue(x, null),
                         property.GetValue(y, null))))
                 .Concat(typeof(T)
+                    .GetTypeInfo()
                     .GetFields(bindingAttributes)
                     .Select(field => this.Comparers
                         .Where(c => c.IsSatisfiedBy(field))
