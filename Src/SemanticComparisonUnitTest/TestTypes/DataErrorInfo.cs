@@ -1,7 +1,7 @@
 ﻿#if SYSTEM_COMPONENTSETTINGS_DATAERRORINFO
 using System.ComponentModel;
 
-namespace TestTypeFoundation
+namespace SemanticComparisonUnitTest.TestTypes
 {
     public class DataErrorInfo : IDataErrorInfo
     {

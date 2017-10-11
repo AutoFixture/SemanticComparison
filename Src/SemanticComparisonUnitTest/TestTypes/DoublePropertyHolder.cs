@@ -1,4 +1,4 @@
-﻿namespace TestTypeFoundation
+﻿namespace SemanticComparisonUnitTest.TestTypes
 {
     public class DoublePropertyHolder<T1, T2>
     {

@@ -4,7 +4,6 @@ using System.Linq;
 using SemanticComparison;
 using SemanticComparison.Fluent;
 using SemanticComparisonUnitTest.TestTypes;
-using TestTypeFoundation;
 using Xunit;
 
 namespace SemanticComparisonUnitTest

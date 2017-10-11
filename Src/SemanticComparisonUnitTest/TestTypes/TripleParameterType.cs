@@ -1,4 +1,4 @@
-﻿namespace TestTypeFoundation
+﻿namespace SemanticComparisonUnitTest.TestTypes
 {
     public class TripleParameterType<T1, T2, T3>
     {

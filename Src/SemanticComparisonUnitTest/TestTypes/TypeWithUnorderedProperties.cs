@@ -1,6 +1,4 @@
-﻿using TestTypeFoundation;
-
-namespace SemanticComparisonUnitTest.TestTypes
+﻿namespace SemanticComparisonUnitTest.TestTypes
 {
     public class TypeWithUnorderedProperties
     {

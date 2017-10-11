@@ -1,4 +1,4 @@
-﻿namespace TestTypeFoundation
+﻿namespace SemanticComparisonUnitTest.TestTypes
 {
     public class SingleParameterType<T>
     {

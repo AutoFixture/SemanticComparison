@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestTypeFoundation
+namespace SemanticComparisonUnitTest.TestTypes
 {
     public abstract class AbstractTypeWithNonDefaultConstructor<T>
     {

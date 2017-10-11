@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TestTypeFoundation
+namespace SemanticComparisonUnitTest.TestTypes
 {
     public class TypeWithIndexer
     {

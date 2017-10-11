@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TestTypeFoundation
+namespace SemanticComparisonUnitTest.TestTypes
 {
     public class CompositeType : AbstractType
     {

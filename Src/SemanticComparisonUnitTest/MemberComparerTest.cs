@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using SemanticComparison;
-using TestTypeFoundation;
+using SemanticComparisonUnitTest.TestTypes;
 using Xunit;
 
 namespace SemanticComparisonUnitTest

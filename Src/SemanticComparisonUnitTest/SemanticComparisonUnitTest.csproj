@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SemanticComparison\SemanticComparison.csproj" />
-    <ProjectReference Include="..\TestTypeFoundation\TestTypeFoundation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
