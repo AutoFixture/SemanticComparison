@@ -1,15 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\Common.props" />
-  <Import Project="..\Common.Test.props" />
-  <Import Project="..\Common.Test.xUnit.props" />
 
   <PropertyGroup>
     <TargetFrameworks>net452;netcoreapp1.1</TargetFrameworks>
     <AssemblyTitle>SemanticComparisonUnitTest</AssemblyTitle>
     <AssemblyName>SemanticComparison.UnitTest</AssemblyName>
-    
-    <DefineConstants Condition=" '$(TargetFramework)'=='net452' ">$(DefineConstants);SYSTEM_OPERATINGSYSTEM</DefineConstants>
+
+    <SignAssembly>False</SignAssembly>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>..\Empty.ruleset</CodeAnalysisRuleSet>
+
+    <IsPackable>false</IsPackable>
+    <!-- Disable source link support for test projects as they are not publishable. -->
+    <SourceLinkCreate>false</SourceLinkCreate>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.0" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0" />
+
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SemanticComparison\SemanticComparison.csproj" />

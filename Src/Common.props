@@ -29,7 +29,7 @@
     <Otherwise>
       <PropertyGroup>
         <_IsFullFramework>true</_IsFullFramework>
-        <DefineConstants>$(DefineConstants);SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE</DefineConstants>
+        <DefineConstants>$(DefineConstants);SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE;SYSTEM_OPERATINGSYSTEM</DefineConstants>
       </PropertyGroup>
     </Otherwise>
   </Choose>
