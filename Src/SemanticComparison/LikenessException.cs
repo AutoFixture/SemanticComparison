@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Represents an error where two semantically comparable instances were expected to match, but

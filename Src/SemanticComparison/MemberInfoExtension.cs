@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     internal static class MemberInfoExtension
     {

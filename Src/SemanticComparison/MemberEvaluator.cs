@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     internal class MemberEvaluator<TSource, TDestination>
     {

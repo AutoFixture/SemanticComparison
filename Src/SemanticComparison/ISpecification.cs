@@ -1,4 +1,4 @@
-﻿namespace Ploeh.SemanticComparison
+﻿namespace SemanticComparison
 {
     /// <summary>
     /// A Specification that evaluates candidates.

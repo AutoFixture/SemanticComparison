@@ -1,7 +1,8 @@
 ﻿using System;
+using SemanticComparison;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class LikenessExceptionTest
     {

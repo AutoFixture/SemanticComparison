@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Provides convention-based object equality comparison for use when comparing two

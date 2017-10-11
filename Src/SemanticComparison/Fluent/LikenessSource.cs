@@ -1,4 +1,4 @@
-﻿namespace Ploeh.SemanticComparison.Fluent
+﻿namespace SemanticComparison.Fluent
 {
     /// <summary>
     /// Defines the source-side of a <see cref="Likeness{TSource, TDestination}"/>.

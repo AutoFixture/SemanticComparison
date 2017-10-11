@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Represents an error during the dynamic proxy creation.
@@ -11,14 +11,14 @@ namespace Ploeh.SemanticComparison
     public class ProxyCreationException : Exception
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ploeh.SemanticComparison.ProxyCreationException"/> class.
+        /// Initializes a new instance of the <see cref="ProxyCreationException"/> class.
         /// </summary>
         public ProxyCreationException()
         {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ploeh.SemanticComparison.ProxyCreationException"/> class.
+        /// Initializes a new instance of the <see cref="ProxyCreationException"/> class.
         /// </summary>
         /// <param name="message">The message.</param>
         public ProxyCreationException(string message)
@@ -27,7 +27,7 @@ namespace Ploeh.SemanticComparison
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ploeh.SemanticComparison.ProxyCreationException"/> class.
+        /// Initializes a new instance of the <see cref="ProxyCreationException"/> class.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <param name="innerException">The inner exception.</param>
@@ -38,7 +38,7 @@ namespace Ploeh.SemanticComparison
 
 #if SYSTEM_RUNTIME_SERIALIZATION
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ploeh.SemanticComparison.ProxyCreationException"/> class.
+        /// Initializes a new instance of the <see cref="ProxyCreationException"/> class.
         /// </summary>
         /// <param name="info">
         /// The <see cref="System.Runtime.Serialization.SerializationInfo"/> that holds the

@@ -6,8 +6,7 @@
   <PropertyGroup>
     <TargetFrameworks>net452;netcoreapp1.1</TargetFrameworks>
     <AssemblyTitle>SemanticComparisonUnitTest</AssemblyTitle>
-    <AssemblyName>Ploeh.SemanticComparison.UnitTest</AssemblyName>
-    <RootNamespace>Ploeh.SemanticComparison.UnitTest</RootNamespace>
+    <AssemblyName>SemanticComparison.UnitTest</AssemblyName>
     
     <DefineConstants Condition=" '$(TargetFramework)'=='net452' ">$(DefineConstants);SYSTEM_OPERATINGSYSTEM</DefineConstants>
   </PropertyGroup>

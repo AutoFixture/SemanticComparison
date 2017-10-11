@@ -1,10 +1,10 @@
-﻿using Ploeh.TestTypeFoundation;
-using System;
+﻿using System;
 using System.Reflection;
+using SemanticComparison;
+using TestTypeFoundation;
 using Xunit;
-using Xunit.Extensions;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class MemberComparerTest
     {

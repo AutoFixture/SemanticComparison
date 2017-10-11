@@ -1,7 +1,7 @@
 ﻿#if SYSTEM_COMPONENTSETTINGS_DATAERRORINFO
 using System.ComponentModel;
 
-namespace Ploeh.TestTypeFoundation
+namespace TestTypeFoundation
 {
     public class DataErrorInfo : IDataErrorInfo
     {

@@ -1,8 +1,8 @@
-﻿using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
+using SemanticComparison;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class DependencyConstraints
     {

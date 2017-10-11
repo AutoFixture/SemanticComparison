@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Encapsulates information about a member (property or field) which is used in a

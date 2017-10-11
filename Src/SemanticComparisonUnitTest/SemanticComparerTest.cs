@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Ploeh.SemanticComparison.UnitTest.TestTypes;
-using Ploeh.TestTypeFoundation;
+using SemanticComparison;
+using SemanticComparisonUnitTest.TestTypes;
+using TestTypeFoundation;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class SemanticComparerTest
     {

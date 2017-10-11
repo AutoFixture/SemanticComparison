@@ -1,6 +1,7 @@
 ﻿using System;
+using SemanticComparison;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     internal class DelegatingSpecification<T> : ISpecification<T>
     {

@@ -1,4 +1,4 @@
-﻿namespace Ploeh.SemanticComparison.UnitTest.TestTypes
+﻿namespace SemanticComparisonUnitTest.TestTypes
 {
     public class ValueObject
     {

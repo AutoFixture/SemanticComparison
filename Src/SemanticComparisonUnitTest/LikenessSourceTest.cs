@@ -1,8 +1,9 @@
 ﻿using System;
-using Ploeh.SemanticComparison.Fluent;
+using SemanticComparison;
+using SemanticComparison.Fluent;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class LikenessSourceTest
     {

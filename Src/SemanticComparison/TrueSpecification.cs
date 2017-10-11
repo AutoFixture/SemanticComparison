@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Ploeh.SemanticComparison
+﻿namespace SemanticComparison
 {
     /// <summary>
     /// A <see cref="ISpecification&lt;T&gt;"/> that is always <see langword="true"/>.

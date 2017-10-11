@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     internal static class ProxyGenerator
     {
