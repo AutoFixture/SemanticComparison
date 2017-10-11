@@ -4,8 +4,7 @@
   <PropertyGroup>
     <TargetFrameworks>net452;netstandard1.5</TargetFrameworks>
     <AssemblyTitle>SemanticComparison</AssemblyTitle>
-    <AssemblyName>Ploeh.SemanticComparison</AssemblyName>
-    <RootNamespace>Ploeh.SemanticComparison</RootNamespace>
+    <AssemblyName>SemanticComparison</AssemblyName>
     <Copyright>Copyright © Ploeh 2011</Copyright>
 
     <!-- NuGet options -->
@@ -16,9 +15,5 @@
 
   <ItemGroup Condition=" '$(TargetFramework)'=='netstandard1.5' ">
     <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <CodeAnalysisDictionary Include="CodeAnalysisDictionary.xml" />
   </ItemGroup>
 </Project>

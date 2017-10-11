@@ -1,7 +1,8 @@
 ﻿using System.Reflection;
+using SemanticComparison;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public abstract class TrueSpecificationTest<T>
     {

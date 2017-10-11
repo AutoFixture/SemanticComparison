@@ -1,13 +1,13 @@
-﻿using Ploeh.SemanticComparison.Fluent;
-using Ploeh.SemanticComparison.UnitTest.TestTypes;
-using Ploeh.TestTypeFoundation;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using SemanticComparison;
+using SemanticComparison.Fluent;
+using SemanticComparisonUnitTest.TestTypes;
+using TestTypeFoundation;
 using Xunit;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     public class LikenessTest
     {

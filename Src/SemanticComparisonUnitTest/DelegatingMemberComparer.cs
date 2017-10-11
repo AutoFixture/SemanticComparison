@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Reflection;
+using SemanticComparison;
 
-namespace Ploeh.SemanticComparison.UnitTest
+namespace SemanticComparisonUnitTest
 {
     internal class DelegatingMemberComparer : IMemberComparer
     {

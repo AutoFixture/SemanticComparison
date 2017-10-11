@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Compares <see cref="MemberInfo"/> instances.

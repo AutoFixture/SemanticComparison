@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Reflection;
 
-namespace Ploeh.SemanticComparison
+namespace SemanticComparison
 {
     /// <summary>
     /// Provides custom equality comparison for requests of a property and field.

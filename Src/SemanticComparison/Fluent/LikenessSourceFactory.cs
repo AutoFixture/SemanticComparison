@@ -1,4 +1,4 @@
-﻿namespace Ploeh.SemanticComparison.Fluent
+﻿namespace SemanticComparison.Fluent
 {
     /// <summary>
     /// Contains extension methods for working with <see cref="Likeness{TSource, TDestination}"/>.
