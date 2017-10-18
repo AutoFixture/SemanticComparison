@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/1fgr4ijfcaoijfs2?svg=true)](https://ci.appveyor.com/project/AutoFixture/semanticcomparison) [![NuGet version](https://img.shields.io/nuget/v/SemanticComparison.svg)](https://www.nuget.org/packages/SemanticComparison)
 
-# Announcement
+# Announcement - v4 was released 🎈
 
 ## Assembly name and namespace
 
