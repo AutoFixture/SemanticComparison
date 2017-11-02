@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/1fgr4ijfcaoijfs2?svg=true)](https://ci.appveyor.com/project/AutoFixture/semanticcomparison) [![NuGet version](https://img.shields.io/nuget/v/SemanticComparison.svg)](https://www.nuget.org/packages/SemanticComparison)
+[![Build status](https://ci.appveyor.com/api/projects/status/1fgr4ijfcaoijfs2?svg=true)](https://ci.appveyor.com/project/AutoFixture/semanticcomparison) [![NuGet version](https://img.shields.io/nuget/v/SemanticComparison.svg)](https://www.nuget.org/packages/SemanticComparison)  <a href="https://twitter.com/AutoFixture"><img src="https://img.shields.io/twitter/follow/AutoFixture.svg?style=social&label=@AutoFixture" alt="AutoFixture" align="right" /></a>
 
 # Announcement - v4 was released 🎈
 
