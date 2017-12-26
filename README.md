@@ -4,7 +4,7 @@
 
 ## Assembly name and namespace
 
-Recently the ownership of this project has been passed from Mark Seemann to maintainers of the AutoFixture organization. To reflect that change the default namespace prefix and assembly name were changed from `Phoeh.SemanticComparison` to `SemanticComparison`. Please use the text replace feature of your IDE to quickly fix all the namespace imports.
+Recently the ownership of this project has been passed from Mark Seemann to maintainers of the AutoFixture organization. To reflect that change the default namespace prefix and assembly name were changed from `Ploeh.SemanticComparison` to `SemanticComparison`. Please use the text replace feature of your IDE to quickly fix all the namespace imports.
 
 ## Project relocation
 
