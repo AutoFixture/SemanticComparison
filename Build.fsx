@@ -180,7 +180,7 @@ Target "TestOnly" (fun _ ->
     |> Seq.iter (fun projPath ->
         DotNetCli.RunCommand (fun p -> { p with WorkingDir = projPath })
                              (sprintf 
-                                 "xunit --no-build --configuration %s"
+                                 "test --no-build --configuration %s"
                                  configuration)
     )
 )
