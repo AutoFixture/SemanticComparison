@@ -18,7 +18,7 @@
     <!-- NuGet options -->
     <Authors>Mark Seemann,AutoFixture</Authors>
     <PackageProjectUrl>https://github.com/AutoFixture/SemanticComparison</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/AutoFixture/SemanticComparison/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIconUrl>https://raw.githubusercontent.com/AutoFixture/SemanticComparison/master/AutoFixtureLogo.png</PackageIconUrl>
   </PropertyGroup>
 
@@ -29,7 +29,7 @@
     <Otherwise>
       <PropertyGroup>
         <_IsFullFramework>true</_IsFullFramework>
-        <DefineConstants>$(DefineConstants);SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE;SYSTEM_OPERATINGSYSTEM</DefineConstants>
+        <DefineConstants>$(DefineConstants);SYSTEM_RUNTIME_SERIALIZATION;SYSTEM_COMPONENTSETTINGS_DATAERRORINFO;SYSTEM_REFLECTION_EMIT_DYNAMICASSEMBLY_SAVE</DefineConstants>
       </PropertyGroup>
     </Otherwise>
   </Choose>
