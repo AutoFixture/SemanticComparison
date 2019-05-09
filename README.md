@@ -18,9 +18,9 @@ SemanticComparison makes it easier to compare instances of various objects to ea
 
 ## .NET platforms compatibility table
 
-| Product            | .NET Framework            | .NET Standard            |
-| ------------------ | ------------------------  | ------------------------ |
-| SemanticComparison | :heavy_check_mark: 4.5.2  | :heavy_check_mark: 1.5   |
+| Product            | .NET Framework            | .NET Standard                 |
+| ------------------ | ------------------------  | ----------------------------- |
+| SemanticComparison | :heavy_check_mark: 4.5.2  | :heavy_check_mark: 1.5, 2.0   |
 
 ## Downloads
 
