@@ -18,7 +18,7 @@
     <!-- NuGet options -->
     <Authors>Mark Seemann,AutoFixture</Authors>
     <PackageProjectUrl>https://github.com/AutoFixture/SemanticComparison</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/AutoFixture/SemanticComparison/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIconUrl>https://raw.githubusercontent.com/AutoFixture/SemanticComparison/master/AutoFixtureLogo.png</PackageIconUrl>
   </PropertyGroup>
 
