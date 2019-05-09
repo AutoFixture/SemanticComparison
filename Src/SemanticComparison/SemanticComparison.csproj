@@ -2,7 +2,7 @@
   <Import Project="..\Common.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>net452;netstandard1.5</TargetFrameworks>
+    <TargetFrameworks>net452;netstandard1.5;netstandard2.0</TargetFrameworks>
     <AssemblyTitle>SemanticComparison</AssemblyTitle>
     <AssemblyName>SemanticComparison</AssemblyName>
     <Copyright>Copyright © Ploeh 2011</Copyright>
@@ -13,7 +13,7 @@
     <Description>SemanticComparison makes it easier to compare instances of various objects to each other. Instead of performing a normal equality comparison, SemanticComparison compares objects that look semantically similar - even if they are of different types. Various fine-tuning options exist.</Description>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)'=='netstandard1.5' ">
+  <ItemGroup Condition=" '$(TargetFramework)'=='netstandard1.5' OR '$(TargetFramework)'=='netstandard2.0' ">
     <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
   </ItemGroup>
 </Project>
