@@ -2,6 +2,10 @@
 
 # Announcement - v4 was released 🎈
 
+
+## Motivation and usage examples
+You can find motivation for this project as well as basic usage examples on @ploeh 's blog in   [Introducing AutoFixture Likeness](https://blog.ploeh.dk/2010/06/29/IntroducingAutoFixtureLikeness/) and [Resemblance and Likeness](https://blog.ploeh.dk/2012/06/22/ResemblanceandLikeness/) posts.
+
 ## Assembly name and namespace
 
 Recently the ownership of this project has been passed from Mark Seemann to maintainers of the AutoFixture organization. To reflect that change the default namespace prefix and assembly name were changed from `Ploeh.SemanticComparison` to `SemanticComparison`. Please use the text replace feature of your IDE to quickly fix all the namespace imports.
